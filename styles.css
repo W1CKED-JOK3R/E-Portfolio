@@ -38,11 +38,6 @@ a {
   transition: opacity 300ms ease;
 }
 
-.project__description--link:hover,
-.about-me__link:hover {
-  opacity: 0.7;
-}
-
 .link__hover-effect:after {
   content: "";
   position: absolute;
@@ -268,6 +263,11 @@ nav {
   100% {
     transform: rotate(0);
   }
+}
+
+.project__description--link:hover,
+.about-me__link:hover {
+  opacity: 0.7;
 }
 
 /* TECH-STACK */
